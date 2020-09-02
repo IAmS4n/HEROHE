@@ -1,0 +1,5 @@
+openslide-python
+scikit-image==0.15
+tqdm
+python-opencv
+efficientnet-pytorch
