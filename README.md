@@ -1,4 +1,4 @@
-# Required packages:
+# Required packages
 Code is tested on Linux and python 3.5.2
 
 For loading mrxs files, openslide library is used which needs to install some packages as bellow:
@@ -10,15 +10,15 @@ For loading mrxs files, openslide library is used which needs to install some pa
 Also, required python packages is listed in "requirement.txt".
 
 
-# Usage:
+# Usage
 There are two steps. First step is mask finding for slides, and the second step is prediction.
 
-## First step:
+## First step
 Run following command in code directory:
 
 	python3 test.py --test_dir TESTDIR --make_mask
 
-## Second step:
+## Second step
 Run following command in code directory:
 
 	python3 test.py --test_dir TESTDIR --make_csv
