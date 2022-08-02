@@ -27,12 +27,17 @@ As a result, a CSV file that contains results will be generated with the name of
 
 # Citation
 ```latex
-@misc{condesousa2021herohe,
-      title={HEROHE Challenge: assessing HER2 status in breast cancer without immunohistochemistry or in situ hybridization}, 
-      author={Eduardo Conde-Sousa and João Vale and Ming Feng and Kele Xu and Yin Wang and Vincenzo Della Mea and David La Barbera and Ehsan Montahaei and Mahdieh Soleymani Baghshah and Andreas Turzynski and Jacob Gildenblat and Eldad Klaiman and Yiyu Hong and Guilherme Aresta and Teresa Araújo and Paulo Aguiar and Catarina Eloy and António Polónia},
-      year={2021},
-      eprint={2111.04738},
-      archivePrefix={arXiv},
-      primaryClass={q-bio.QM}
+@Article{jimaging8080213,
+AUTHOR = {Conde-Sousa, Eduardo and Vale, João and Feng, Ming and Xu, Kele and Wang, Yin and Della Mea, Vincenzo and La Barbera, David and Montahaei, Ehsan and Baghshah, Mahdieh and Turzynski, Andreas and Gildenblat, Jacob and Klaiman, Eldad and Hong, Yiyu and Aresta, Guilherme and Araújo, Teresa and Aguiar, Paulo and Eloy, Catarina and Polónia, Antonio},
+TITLE = {HEROHE Challenge: Predicting HER2 Status in Breast Cancer from Hematoxylin&ndash;Eosin Whole-Slide Imaging},
+JOURNAL = {Journal of Imaging},
+VOLUME = {8},
+YEAR = {2022},
+NUMBER = {8},
+ARTICLE-NUMBER = {213},
+URL = {https://www.mdpi.com/2313-433X/8/8/213},
+ISSN = {2313-433X},
+ABSTRACT = {Breast cancer is the most common malignancy in women worldwide, and is responsible for more than half a million deaths each year. The appropriate therapy depends on the evaluation of the expression of various biomarkers, such as the human epidermal growth factor receptor 2 (HER2) transmembrane protein, through specialized techniques, such as immunohistochemistry or in situ hybridization. In this work, we present the HER2 on hematoxylin and eosin (HEROHE) challenge, a parallel event of the 16th European Congress on Digital Pathology, which aimed to predict the HER2 status in breast cancer based only on hematoxylin&ndash;eosin-stained tissue samples, thus avoiding specialized techniques. The challenge consisted of a large, annotated, whole-slide images dataset (509), specifically collected for the challenge. Models for predicting HER2 status were presented by 21 teams worldwide. The best-performing models are presented by detailing the network architectures and key parameters. Methods are compared and approaches, core methodologies, and software choices contrasted. Different evaluation metrics are discussed, as well as the performance of the presented models for each of these metrics. Potential differences in ranking that would result from different choices of evaluation metrics highlight the need for careful consideration at the time of their selection, as the results show that some metrics may misrepresent the true potential of a model to solve the problem for which it was developed. The HEROHE dataset remains publicly available to promote advances in the field of computational pathology.},
+DOI = {10.3390/jimaging8080213}
 }
 ```
